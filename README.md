@@ -10,11 +10,11 @@ The robotic arm in the previous task was designed to lift a **1 kg** weight. Now
 ## 2. Understanding the Torque Requirement
 Torque (τ) is calculated as:
 
-    τ = F × r
+        τ = F × r
 
 where:
 - F = mg is the force due to gravity,
-- g = 9.81 m/s² (acceleration due to gravity),
+- g = 9.81 m/s²
 - r is the arm length.
 
 ### Previous Torque (1 kg Case)
@@ -24,7 +24,7 @@ For **1 kg**, assuming the load is applied at the farthest point (**15 cm = 0.15
 
     τ₁ = 9.81 × 0.15 = 1.47 Nm
 
-### New Torque Requirement (2 kg Case)
+### New Torque Requirement (2 kg )
 For **2 kg**, using the same arm length:
 
     F = (2 × 9.81) = 19.62 N
@@ -55,12 +55,11 @@ This means we need a **2:1 gear ratio** to **double** the torque.
 
 ---
 
-## 4. Possible Issues and Limitations
+## 4. Possible Issues
 Using gears introduces some challenges:
 1. **Slower Arm Movement**: Since torque is doubled, the speed is **halved**.
 2. **Energy Loss**: Gears introduce **friction** and **mechanical inefficiencies**.
 3. **Additional Weight**: Gears add extra mass to the arm.
-4. **More Complexity**: Additional design adjustments might be needed.
 
 ---
 
